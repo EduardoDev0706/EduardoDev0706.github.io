@@ -9,3 +9,20 @@ ShowShareButtons = true
 ShowReadingTime = true
 
 [menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"        # Texto do link
+    url = "/posts/"      # Para onde aponta
+    weight = 10          # Ordem (menor primeiro)
+
+  [[menu.main]]
+    identifier = "projetos"
+    name = "Projetos"
+    url = "/projetos/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "sobre"
+    name = "Sobre Mim"
+    url = "/sobre/"
+    weight = 30
