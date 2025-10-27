@@ -1,6 +1,6 @@
 baseURL = "https"
 languageCode = "pt-br"
-title = "Ed'Labs"
+title = "Edu'Labs"
 theme = "PaperMod"
 
 [params.PaperMod]
