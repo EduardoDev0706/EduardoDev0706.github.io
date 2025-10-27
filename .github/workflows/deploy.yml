@@ -33,7 +33,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-	  extended: true
+          extended: true  # <--- CORREÇÃO DE INDENTAÇÃO e ativação do CSS/SASS
 
       - name: Build
         run: hugo --minify
