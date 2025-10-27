@@ -1,0 +1,11 @@
+baseURL = "https"
+languageCode = "pt-br"
+title = "Ed'Labs"
+theme = "PaperMod"
+
+[params.PaperMod]
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+
+[menu]
