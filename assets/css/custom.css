@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, .logo, .menu, a, button, input, textarea {
+    font-family: 'IBM Plex Mono', monospace !important;
+}
+
+pre, code {
+    font-family: 'IBM Plex Mono', monospace !important;
+}
+
+[data-theme="light"] {
+    --background: #f4f4f4;           
+    --primary-text-color: #111111;   
+    --secondary-text-color: #555;    
+    --primary-color: #0033a1;         
+    --secondary-color: #d4d4d4;     
+    --card-background: #ffffff;      
+}
+
+[data-theme="dark"] {
+    --background: #0a0a0a;           
+    --card-background: #0a0a0a;      
+    --secondary-text-color: #00bb00;
+    --primary-color: #00FFFF;         
+    --secondary-color: #005200;     
+    --code-bg: #1a1a1a;
+    --code-syntax-color: #00FF00;
+}
+
+/* Remove todas as sombras */
+
+.header,
+.main,
+.post-entry,
+.post-header,
+.post-content,
+.post-footer {
+    box-shadow: none !important;
+}
+
+/* Remove todas as bordas arredondadas */
+
+img,
+.post-entry,
+.code-block {
+    border-radius: 0 !important;
+}
+
+.header {
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.footer {
+    border-top: 1px solid var(--secondary-color);
+}
