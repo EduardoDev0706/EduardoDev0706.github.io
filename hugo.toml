@@ -31,5 +31,4 @@ ShowReadingTime = true
 extended = true
 
 [params]
- [params.assets]
- customCss = ["css/custom.css]
+ customCss = ["css/custom.css"]
