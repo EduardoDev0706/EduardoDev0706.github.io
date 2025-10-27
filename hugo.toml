@@ -26,3 +26,10 @@ ShowReadingTime = true
     name = "Sobre Mim"
     url = "/sobre/"
     weight = 30
+
+[build]
+extended = true
+
+[params]
+ [params.assets]
+ customCss = ["css/custom.css]
